@@ -1,131 +1,56 @@
 ---
-title: About
+title: "About"
+author: "Sungjin Park"
 permalink: /about/
 ---
 
-You can see live demo [here](https://aweekj.github.io/Kiko-plus). This theme is inspired by [Kiko](http://github.com/gfjaru/Kiko) theme.
+I'm a research professor at Yoon Lab in the Institute of Gachon Genomic Medicine and Science on the Gachon University Gil Medical Center, South Korea from Jan. 2016. I do computational modeling based on informatics and statistics (information theory, machine learning, and artificial intelligence) to analyze large volumes of high-throughput transcriptomic, sequencing, and other omics data for therapeutic candidate gene discovery, especially in cancer.
 
-## Features
+## Latest News
+NRF proposal approved
 
-- Disqus comment system
-- Google analytics
-- Pagination support
-- Custom tags
-- SEO support
+* I got a three-year funding for my proposal at the National Research Foundation of Korea.
 
+## Career
 
-## Installation
+### Fund
+Jun. 2017 - May 2020: Basic Science Research Program through the National Research Foundation of Korea(NRF) funded by the Ministry of Education (NRF-2017R1D1A1B03032077)
 
-#### Method 1: new master's repository (The Best)
+### Academy and Research
+* Jan. 2016 - Present: Institute of Genomic Medicine and Science at Gil Medical Center , Inchon, South Korea
+* Oct. 2014 - Dec. 2015: Dept. of New Experimental Therapeutics at National Cancer Center, South Korea
+* Oct. 2010 - Oct. 2014: Advisory committee of Super computing center at Korea Institute of Science and Technology Information Center, Daejon, South Korea
+* Mar. 2008 - Feb. 2014: Lecturer at Inje university, South Korea
+Dept. of Biomedical Engineering
+Medical College
 
-1. First [fork](https://github.com/AWEEKJ/Kiko-plus/fork) it.
-2. Change your forked repository name _Kiko-plus_ to __USERNAME.github.io__ where __USERNAME__ is your github username.
-3. Access your new blog via [https://username.github.io](https://username.github.io).
-4. [See configuration](#configuration).
+### Industry
+* Jul. 2004 - Jan. 2008: Data Architect at Mc Global Inc., Seoul, South Korea
+* Dec. 2002 - Apr. 2004: Software Engineer and Project Leader at e-Sang Networks Inc., Seoul, South Korea
 
-#### Method 2: gh-pages in existing repository
+## Education
 
-1. Create a new branch called _gh-pages_ in the repository where you want to add a template [managing branches](https://help.github.com/articles/creating-and-deleting-branches-within-your-repository/).
-2. From command line run `git clone https://github.com/AWEEKJ/Kiko-plus.git` - this will clone _Kiko-plus_ template to your computer.
-3. Create new branch `git checkout -b gh-pages` where _gh-pages_ will be your branch name.
-4. Add remote, which is your repo from the first step, to your new branch `git remote add gh-pages https://github.com/<yourName>/<yourMaster>/gh-pages`. _yourName_ is your account name and _yourMaster_ is your repository.
-5. Push new branch to remote `git push gh-pages`.
-6. Update `_config.yml` file by changing `baseurl: "<branchName>"` _branchName_ is your branch name where _gh-pages_ resides. See [configuration](#configuration).
+**Inje university**, Gimhae, South Korea
 
-#### Method 3: Run it locally
+* Ph.D. of Engineering in Biomedical Engineering (Bioinformatics), Aug. 2016
+* Master of Engineering in Biomedical Engineering (Medical Informatics),­ Aug. 2001
+* Bachelor of Engineering in Biomedical Engineering (Minor: English Language and Literature),­ Feb. 1999
 
-1. Download [zip](https://github.com/AWEEKJ/Kiko-plus/archive/master.zip) or clone it `git clone https://github.com/AWEEKJ/Kiko-plus`.
-2. Go inside folder and run `jekyll serve` or `rake preview`. This will build a website which you can access [https://localhost:4000](https://localhost:4000). You need to have [Jekyll](https://jekyllrb.com/docs/installation/) installed to do this.
+### Scholarship Awards
+* 8 times fully funded scholarships at graduate school
+* 6 times partly scholarships at undergraduate school
 
-
-## Configuration
-
-All configuration is done via `_config.yml` file which you will find in your main repo folder. Change this `<something>` to yours.
-
-### Basic
-
-- Config your blog name.
-
-```yml
-name: <blog-name>
-```
-
-- These configuration in `author:` is for links to icons in footer. If you want to add more link icons, modify `_includes/footer.html` file.
-
-```yml
-author:
-  facebook:         your-id
-  twitter:          your-id
-  github:           your-id
-  linkedin:         your-id
-  medium:           your-id
-  tumblr:           your-id
-  email:            your-id@your-email.com
-```
-
-- Change copyright year and name in footer.
-
-```yml
-copyright:
-  year:             2017
-  name:             Kiko
-```
-
-### Google analytics
-
-- Change this to your Google Analytic ID.
-
-```yml
-google-analytics:
-  id:               "your-id"
-```
-
-### Disqus
-
-- Change this to your Disqus short name.
-
-```yml
-disqus:
-  id:               "your-id"
-```
-
-### URL
-
-- Config your domain.
-
-```yml
-url: "https://<your-name>.github.io"
-```
-
-- **NOTE** When if running locally, change url to 
-
-```yml
-url: "https://localhost:4000"
-```
-
-- Change this to your branch name where _gh-pages_ resides. 
-- **NOTE** apply only if you used __Method 2__ for installation.
-
-```yml
-baseurl: "/<branch-name>"
-```
-
-## Rakefile Usage
-
-```bash
-# Create new post
-$ rake post title="A Title" [date="2015-08-16"] [tags="[tag1, tag2]"] 
-
-# Create new draft post
-$ rake draft title="A Title" [date="2015-08-16"] [tags="[tag1, tag2]"]
-
-# Install Jekyll Plugins. Do before running in local.
-$ rake geminstall
-
-# Run in Local
-$ rake preview
-```
-
-## License
-
-This theme is released under MIT License.
+### Accomplished courses in the graduate school
+* Bioinformatics
+* Advanced Medical Statistics
+* Advanced Medical Informatics
+* Artificial Intelligence in Medicine
+* Multivariate Analysis and Artificial Neural Network
+* Quantization and Decision Support System in Medicine
+* Knowledge Acquisition in Expert System
+* Expert System in Clinical Medicine
+* Genetic Algorithm
+* XML and Database in Medicine
+* Methodology of Biomedical Engineering
+* Economics in Healthcare
+* Methodology of Computer based Medical Instruments
